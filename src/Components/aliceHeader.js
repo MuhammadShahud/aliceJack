@@ -24,13 +24,15 @@ function AliceHeader() {
   return (
     <div className='page'>
 
-      {/* <div className='logout'>
-        <div className='sYel'><img src={threeDots} /></div>
-        <div>
+      <div className='logout'>
+        <div className='container'>
+        <div className='sYel' style={{height:'14px',position:'relative'}}><img src={threeDots} /></div>
+        <div className='setting'>
           <p>Setting</p>
           <p>Logout</p>
         </div>
-      </div> */}
+        </div>
+      </div>
 
       <div className='top'>
         <div className='bYel'>GBFO5...DQKW7</div>
