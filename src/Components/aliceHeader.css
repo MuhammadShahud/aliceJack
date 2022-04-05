@@ -1,0 +1,212 @@
+.top {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px #f0eeeb solid;
+  padding: 0.5% 0;
+}
+.bYel {
+  margin: 0.5%;
+  background-color: #ffcb3d;
+  color: black;
+  border-radius: 20px;
+  padding: 0.8% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sYel {
+  width: 20px;
+  cursor: pointer;
+  margin: 0.5%;
+  background-color: #ffcb3d;
+  color: black;
+  border-radius: 50%;
+  padding: 0.8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 3% 7% 5%;
+}
+.leftDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.profileDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.profileDiv div {
+  margin-right: 1%;
+  height: 60px;
+  width: 60px;
+}
+.innerDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.innerDiv h3 {
+  margin: 0;
+}
+.innerDiv p {
+  margin: 0;
+  color: #83848F;
+}
+.depositDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.rightInnerDiv {
+  padding: 2% 11.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 4%;
+
+  background-color: #f0eeeb;
+}
+.portfolio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 125%;
+}
+.portfolio p {
+  font-weight: bold;
+  font-size: 125%;
+}
+p {
+  margin: 0;
+}
+.rightDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.dDiv {
+  width: 54%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2%;
+  justify-content: space-between;
+}
+
+.wDiv {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  background-color: #f0eeeb;
+  border-radius: 15px;
+  padding: 3% 4%;
+}
+.wDiv img {
+  margin-right: 8%;
+  height: 27px;
+  width: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .top {
+    padding: 3% 0;
+  }
+  .headerDiv {
+    margin-top: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftDiv {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .rightDiv {
+    width: 100%;
+    align-items: center;
+  }
+  .rightInnerDiv {
+    width: 100%;
+    padding: 2% 0;
+  }
+  .dDiv {
+    width: 100%;
+  }
+  .profileDiv {
+    margin-bottom: 8%;
+  }
+  .depositDiv {
+    margin-bottom: 6%;
+  }
+  .dDiv {
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+ 
+.innerDiv p {
+  margin-bottom: 3%;
+}
+}
+
+@media (min-width: 760px) and (max-width: 1025px) {
+  .top {
+    padding: 3% 0;
+  }
+  .headerDiv {
+    margin-top: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profileDiv {
+    margin-bottom: 8%;
+  }
+  .leftDiv {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .rightDiv {
+    width: 100%;
+    align-items: center;
+  }
+  .rightInnerDiv {
+    width: 100%;
+    padding: 3% 0;
+  }
+  .dDiv {
+    width: 100%;
+  }
+  .depositDiv {
+    margin-bottom: 6%;
+  }
+  .dDiv {
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  .innerDiv p {
+  margin-bottom: 3%;
+}
+}
