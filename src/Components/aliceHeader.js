@@ -11,12 +11,11 @@ import './aliceHeader.css'
 
 function AliceHeader() {
   return (
-    <div style={{width:'100%'}}>
+    <div className='page'>
       <div className='top'>
         <div className='bYel'>GBFO5...DQKW7</div>
         <div className='sYel'><img src={threeDots} /></div>
       </div>
-
 
       <div className='headerDiv'>
 
@@ -59,7 +58,7 @@ function AliceHeader() {
         <div className='rightDiv'>
 
           <div className='rightInnerDiv'>
-            <p>Your Portfolio</p>
+            <p className='yourPortfolio'>Your Portfolio</p>
             <div className='portfolio'>
               <img src={portfolio} height={30} width={30} />
               <p>$7,464,000.00</p>

@@ -1,3 +1,6 @@
+.page{
+    width: 100%;
+}
 .top {
   display: flex;
   justify-content: flex-end;
@@ -5,6 +8,7 @@
   padding: 0.5% 0;
 }
 .bYel {
+    height: 14px;
   margin: 0.5%;
   background-color: #ffcb3d;
   color: black;
@@ -15,7 +19,7 @@
   align-items: center;
 }
 .sYel {
-  width: 20px;
+  width: 14px;
   cursor: pointer;
   margin: 0.5%;
   background-color: #ffcb3d;
@@ -51,9 +55,12 @@
   margin-bottom: 3%;
 }
 .profileDiv div {
-  margin-right: 1%;
-  height: 60px;
-  width: 60px;
+  margin-right: 2.3%;
+  height: 88px;
+  width: 88px;
+}
+.profileDiv h2{
+    font-size: 48px;
 }
 .innerDiv {
   width: 50%;
@@ -65,6 +72,7 @@
   margin: 0;
 }
 .innerDiv p {
+    padding-bottom: 8px;
   margin: 0;
   color: #83848F;
 }
@@ -76,14 +84,17 @@
   margin-bottom: 2%;
 }
 .rightInnerDiv {
-  padding: 2% 11.5%;
+  padding: 2% 12%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 40px;
   margin-bottom: 4%;
-
   background-color: #f0eeeb;
+}
+.yourPortfolio{
+color: #83848F;
+padding-bottom: 8px;
 }
 .portfolio {
   display: flex;
@@ -119,7 +130,7 @@ p {
   display: flex;
   align-items: center;
   background-color: #f0eeeb;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 3% 4%;
 }
 .wDiv img {
@@ -167,6 +178,9 @@ p {
  
 .innerDiv p {
   margin-bottom: 3%;
+}
+.portfolio{
+    width: 100%;
 }
 }
 
