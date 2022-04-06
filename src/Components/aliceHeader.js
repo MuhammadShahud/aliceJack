@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react'
-import threeDots from '../assets/threeDots.png'
+import threeDots from '../assets/threeDots.svg'
 import portfolio from '../assets/portfolio.png'
 import pic from '../assets/pic.png'
 import deposit from '../assets/deposit.png'
@@ -40,7 +40,7 @@ const [showButton, setShowButton] = useState(false)
       </div>
 
       <div className='top-container'>
-        <div style={{ width: '25%' }}>
+        <div style={{ width: '30%' }}>
 
         </div>
         <div className='logo'>
@@ -97,7 +97,7 @@ const [showButton, setShowButton] = useState(false)
               <p className='yourPortfolio'>Your Portfolio</p>
               <div className='portfolio'>
                 <img src={portfolio} height={30} width={30} />
-                <p>$7,464,000.00</p>
+                <p className='dollar'>$7,464,000.00</p>
                 <p className='indicator'>
                   <img style={{ width: 8, height: 8 }} src={Increament} alt="" />
                   3.6%
