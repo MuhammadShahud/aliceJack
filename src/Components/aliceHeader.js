@@ -14,7 +14,6 @@ import transferW from '../assets/transferW.png'
 import withdrawW from '../assets/withdrawW.png'
 import Logo from '../assets/logo.png';
 import Increament from '../assets/increament.png'
-import Decreament from '../assets/decrement.png'
 
 
 function AliceHeader() {
