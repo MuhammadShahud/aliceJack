@@ -1,3 +1,4 @@
+
 .page {
   width: 100%;
 }
@@ -171,8 +172,7 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  /* margin-bottom: 2%; */
-  /* justify-content: space-between; */
+ margin-top: 8px;
 }
 
 .wDiv {
@@ -185,7 +185,7 @@ p {
   padding: 12px 0px;
 }
 .wDiv:hover {
-  background-color: #313147;
+  background-color: #006877;
   color: white;
 }
 
